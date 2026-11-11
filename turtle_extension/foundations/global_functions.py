@@ -1,13 +1,13 @@
 # ⚓ Anchor for this module: [[global-functions-anchor|global_functions.py]] 
 
-import turtle as turtles  # noqa: I001
-import typing as tp
-from time import sleep as rest
+lazy import turtle as turtles  # noqa: I001
+lazy import typing as tp
+lazy from time import sleep as rest
 
-import uf
+lazy import uf
 
-from .. import turtle_heart as tls_heart
-from . import global_variables as glb_var
+lazy from .. import turtle_heart as tls_heart
+lazy from . import global_variables as glb_var
 
 
 _screen = None

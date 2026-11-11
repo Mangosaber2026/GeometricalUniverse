@@ -1,10 +1,10 @@
 # ⚓ Anchor for this module: [[turtle-functions-anchor|turtle_functions.py]] 
 
-import uf
+lazy import uf
 
-from .. import turtle_heart as tls_heart
-from . import custom_turtle_shapes as cm_tl_shapes
-from . import global_variables as glb_var
+lazy from .. import turtle_heart as tls_heart
+lazy from . import custom_turtle_shapes as cm_tl_shapes
+lazy from . import global_variables as glb_var
 
 
 # ⚓ TurtleFct anchor: [[TurtleFct-anchor|class TurtleFct]] 

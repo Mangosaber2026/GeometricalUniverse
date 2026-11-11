@@ -13,7 +13,7 @@ Author: Miah M. Sabiq
 """
 
  #* 📝 Imports foundational functions across numerous files
-from .foundations import (  # noqa: I001
+lazy from .foundations import (  # noqa: I001
    CUSTOM_SHAPES,        
    # 🔗 Link to source code: [[#CUSTOM-SHAPES-anchor|dictionary CUSTOM_SHAPES]] 
    get_UserShape_dict,   
@@ -28,7 +28,6 @@ from .foundations import (  # noqa: I001
    # 🔗 Link to source code: [[#SU-anchor|SU()]] 
    tls_color,            
    # 🔗 Link to source code: [[#tls-color-anchor|tls_color()]] 
-
    t_now,                
    # 🔗 Link to source code: [[#t-now-anchor|t_now()]] 
    t_shape,              
@@ -44,7 +43,7 @@ from .foundations import (  # noqa: I001
 
  #* 📝 Imports core mechanisms of this package:
  #* 📝 [[#ChainTurtle-anchor|ChainTurtle]] and turtle.py from [[#turtle-skeleton-anchor|turtle_skeleton.py]] 
-from .turtle_heart import (
+lazy from .turtle_heart import (
    ChainTurtle,          
    # 🔗 Link to source code: [[#ChainTurtle-anchor|class ChainTurtle]] 
    tl,                   

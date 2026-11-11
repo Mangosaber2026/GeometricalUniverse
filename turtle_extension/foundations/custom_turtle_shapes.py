@@ -1,8 +1,8 @@
 # ⚓ Anchor for this module: [[custom-turtle-shapes-anchor|custom_turtle_shapes.py]] 
 
-import uf
+lazy import uf
 
-from .. import turtle_heart as tls_heart
+lazy from .. import turtle_heart as tls_heart
 
 
 # ⚓ UserShape anchor: [[UserShape-anchor|class UserShape]] 

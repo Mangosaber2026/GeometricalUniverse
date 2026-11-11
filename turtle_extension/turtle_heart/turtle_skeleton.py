@@ -1,9 +1,9 @@
 # ⚓ Anchor for this module: [[turtle-skeleton-anchor|turtle_skeleton.py]] 
 
-import turtle as tl
-import typing as tp
+lazy import turtle as tl
+lazy import typing as tp
 
-import uf
+lazy import uf
 
 
 # ⚓ ChainTurtle anchor: [[ChainTurtle-anchor|class ChainTurtle]] 

@@ -12,7 +12,7 @@ TurtleExtension is a Python project dedicated to extending and experimenting wit
 
 ## Requirements
 
-- Python 3.14 or later
+- Python 3.15 or later
 
 ## Installation
 

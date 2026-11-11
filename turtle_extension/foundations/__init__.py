@@ -2,7 +2,7 @@
 
 
 #* 📝 Imports function, class and dictionary from [[#custom-turtle-shapes-anchor|custom_turtle_shapes.py]] 
-from .custom_turtle_shapes import (  # noqa: I001
+lazy from .custom_turtle_shapes import (  # noqa: I001
     CUSTOM_SHAPES,
     # 🔗 Link to source code: [[#CUSTOM-SHAPES-anchor|constant CUSTOM_SHAPES]] 
     UserShape,
@@ -12,7 +12,7 @@ from .custom_turtle_shapes import (  # noqa: I001
 )
 
 #* 📝 Imports fundamental turtle functions from [[#global-functions-anchor|global_functions.py]] 
-from .global_functions import (
+lazy from .global_functions import (
     SU,
     # 🔗 Link to source code: [[#SU-anchor|SU()]] 
     get_screen,
@@ -26,7 +26,7 @@ from .global_functions import (
 )
 
 #* 📝 Imports universal dictionary and related functions from [[#global-variables-anchor|global_variables.py]] 
-from .global_variables import (
+lazy from .global_variables import (
     UV,
     # 🔗 Link to source code: [[#UV-anchor|dictionary UV]]  
     t_now,
@@ -36,7 +36,7 @@ from .global_variables import (
 )
 
 #* 📝 Imports class from [[#turtle-functions-anchor|turtle_functions.py]]
-from .turtle_functions import (
+lazy from .turtle_functions import (
     TurtleFct,
     # 🔗 Link to source code: [[#TurtleFct-anchor|class TurtleFct]] 
 )
