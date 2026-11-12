@@ -1,0 +1,56 @@
+"""
+This module contains the Alphabets class which provides a collection of functions for drawing English letters,
+punctuation, and shapes (heart, star).
+"""
+#* 📝 File type: Python type stub (.pyi)
+#* 📝 Purpose: Describes the module's interface for documentation,
+#* 📝         editor support, and static type checking.
+#* 📝 Runtime: Contains no implementation; see the corresponding
+#* 📝         .py file for executable code.
+
+
+import collections.abc as cabc
+import numbers as num
+
+import turtle_extension as tx
+
+from . import english_letters, english_punctuations, english_shapes
+
+ #* 📝 Type variable for Alphabets functions
+type AlphabetFunctionType = cabc.Callable[[num.Real, tx.ChainTurtle], None]
+
+ #* 📝 Type variable for classes which return Alphabets functions
+type AlphabetDictType = dict[str, AlphabetFunctionType]
+
+ #* 📝 Type variable for functions which return the entire Alphabets dictionary
+type FullAlphabetDictType = dict[
+    str,
+    AlphabetFunctionType | cabc.Callable[[], FullAlphabetDictType]
+]
+
+
+class EngAlphabets(
+    english_letters.EngLetters,
+    english_punctuations.EngPunctuation,
+    english_shapes.EngShapes,
+):
+    """
+    The definitive collection of English letters, punctuation marks, and shapes.
+    """
+
+    @classmethod
+    def list_alphabets(cls) -> FullAlphabetDictType:
+        """
+        Creates a dictionary with the functions in Alphabets and returns it.
+
+        :return: dictionary containing function names -> function
+        """
+        
+
+def eng_alphabets_dict() -> AlphabetDictType:
+    """
+    Creates and returns a dictionary mapping all available letters, punctuation and shapes function names 
+    in Alphabets with their corresponding functions.
+
+    :return: dictionary containing function names -> function
+    """
