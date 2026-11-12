@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "UniversalFunctions"
+version = "5.5.0"
+description = "A Python utility library providing foundational functions, validators, and infrastructure."
+readme = "README.md"
+requires-python = ">=3.15"
+
+authors = [
+    { name = "Miah M. Sabiq", email = "miah.sabiq@gibs.at"}
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "uf*",
+]
+
+[tool.setuptools.package-data]
+uf = [
+    "contributions/*.md",
+    "editor_configs/*.md",
+    "editor_configs/*.json",
+]
+
+[tool.ruff.lint]
+ignore = ["RUF022"]

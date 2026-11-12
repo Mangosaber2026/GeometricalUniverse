@@ -1,0 +1,140 @@
+"""
+This module contains the HelperFunctions class which provides a collection of reusable helper functions
+so that the user can easily use them without having to write the code for them again.
+
+Some other functions:
+
+sine -> calculates sine value
+
+range_f -> acts like the conventional range function except for that this takes rational inputs
+"""
+ #* 📝 File type: Python type stub (.pyi)
+ #* 📝 Purpose: Describes the module's interface for documentation,
+ #* 📝         editor support, and static type checking.
+ #* 📝 Runtime: Contains no implementation; see the corresponding
+ #* 📝         .py file for executable code.
+
+import collections.abc as cabc  # noqa: I001
+import numbers as num
+
+
+#* 📝 Type for any real number
+type RealType = float | int | num.Real
+
+
+class HelperFunctions:
+    """
+    This class provides a collection of reusable helper functions
+    so that the user can easily use them without having to write the code for them again.
+    """
+
+    @staticmethod
+    def intervals_f() -> RealType:
+        """
+        Asks the user for rational intervals.
+
+        :return: the number of intervals as a rational number
+        """
+
+    @staticmethod
+    def length_float() -> RealType:
+        """
+        Asks the user for rational lengths.
+
+        :return: the length as a rational number
+        """
+
+    @staticmethod
+    def radius_float() -> RealType:
+        """
+        Asks the user for rational radius.
+
+        :return: the radius as a rational number
+        """
+
+    @staticmethod
+    def object_num() -> int:
+        """
+        Asks the user for the number of objects.
+
+        :return: the number of objects as an integer
+        """
+
+    @staticmethod
+    def sides_num() -> int:
+        """
+        Asks the user for the number of sides.
+
+        :return: the number of sides as an integer
+        """
+
+    @staticmethod
+    def row_num() -> int:
+        """
+        Asks the user for the number of rows.
+
+        :return: the number of rows as an integer
+        """
+
+    @staticmethod
+    def row_pair() -> int:
+        """
+        Asks the user for the number of pairs of rows.
+
+        :return: the number of pairs of rows as an integer
+        """
+
+    @staticmethod
+    def diameter_sq(length: RealType) -> tuple[RealType, RealType]:
+        """
+        Calculates the diameter of a square with given length.
+
+        :param length: the length of the square
+
+        :return: a tuple containing the diameter and half of the diameter
+        """
+
+    @staticmethod
+    def x_ft() -> RealType:
+        """
+        Asks the user for the x value (on the coordinate system).
+
+        :return: the x value as a rational number
+        """
+
+    @staticmethod
+    def y_ft() -> RealType:
+        """
+        Asks the user for the y value (on the coordinate system).
+
+        :return: the y value as a rational number
+        """
+
+    @staticmethod
+    def list_helperfunctions() -> dict:
+        """
+        Returns a dictionary of all the helper functions in this class.
+
+        :return: a dictionary with function names as keys and function objects as values
+        """
+
+
+helper: type[HelperFunctions]
+
+
+def range_f(
+        start: RealType,
+        stop: RealType,
+        step: RealType
+) -> cabc.Generator[RealType]:
+    """
+    Lets the user choose Real inputs for start, stop and step.
+
+    :param start: start value; Real number
+
+    :param stop: stop value; Real number
+
+    :param step: step value; Real number
+    
+    :return: a generator that yields values from start to stop with the given step
+    """
