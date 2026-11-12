@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TurtleExtension"
+version = "3.3.0"
+description = "A Python utility library providing turtle extensions on top of Python's original turtle feature."
+readme = "README.md"
+requires-python = ">= 3.15"
+
+dependencies = [
+    "UniversalFunctions>=5.5.0",
+]
+
+authors = [
+    { name = "Miah M. Sabiq", email = "miah.sabiq@gibs.at"}
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "turtle_extension*",
+]
+
+[tool.setuptools.package-data]
+turtle_extension = [
+    "contributions/*.md",
+    "editor_configs/*.md",
+    "editor_configs/*.json",
+]
+
+[tool.ruff.lint]
+ignore = [
+    "RUF022",
+]
