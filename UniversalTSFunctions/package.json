@@ -1,0 +1,11 @@
+{
+    "name": "universal-ts-functions",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "Reusable TypeScript utilities for GeometricalUniverse.",
+    "exports": {
+        ".": "./src/index.ts",
+        "./console": "./src/console/index.ts"
+    }
+}

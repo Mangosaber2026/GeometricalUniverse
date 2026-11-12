@@ -1,0 +1,10 @@
+{
+    "name": "universal-ts-release-pypi",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "description": "A reusable TypeScript release manager for Python packages.",
+    "scripts": {
+        "release": "node src/cli.ts"
+    }
+}
