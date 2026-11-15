@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[english-letters-anchor|english_letters.py]] 
+#? ⚓ Anchor for this module: [[english-letters-anchor|english_letters.py]] 
 
 lazy import math
 
@@ -8,11 +8,11 @@ lazy import uf
 lazy from . import english_alphabets_validators as eng_vls
 
 
-# ⚓ EngLetters anchor: [[EngLetters-anchor|class EngLetters]] 
+#? ⚓ EngLetters anchor: [[EngLetters-anchor|class EngLetters]] 
 #* 📝 Contains only the letters, they are directly accessible through [[#EngAlphabets-anchor|EngAlphabets]] 
 class EngLetters:
 
-        # ⚓ A anchor: [[Letters-A-anchor|A()]] 
+        #? ⚓ A anchor: [[Letters-A-anchor|A()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def A(height, tls: tx.ChainTurtle):     
@@ -42,7 +42,7 @@ class EngLetters:
             )
 
 
-        # ⚓ B anchor: [[Letters-B-anchor|B()]] 
+        #? ⚓ B anchor: [[Letters-B-anchor|B()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def B(height, tls: tx.ChainTurtle):     
@@ -65,7 +65,7 @@ class EngLetters:
              )
             
 
-        # ⚓ C anchor: [[Letters-C-anchor|C()]] 
+        #? ⚓ C anchor: [[Letters-C-anchor|C()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def C(height, tls: tx.ChainTurtle):     
@@ -86,7 +86,7 @@ class EngLetters:
             )
 
 
-        # ⚓ D anchor: [[Letters-D-anchor|D()]] 
+        #? ⚓ D anchor: [[Letters-D-anchor|D()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def D(height, tls: tx.ChainTurtle):     
@@ -104,7 +104,7 @@ class EngLetters:
             )
 
 
-        # ⚓ E anchor: [[Letters-E-anchor|E()]] 
+        #? ⚓ E anchor: [[Letters-E-anchor|E()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def E(height, tls: tx.ChainTurtle):     
@@ -134,7 +134,7 @@ class EngLetters:
             )
 
 
-        # ⚓ F anchor: [[Letters-F-anchor|F()]] 
+        #? ⚓ F anchor: [[Letters-F-anchor|F()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def F(height, tls: tx.ChainTurtle):     
@@ -160,7 +160,7 @@ class EngLetters:
             )
 
 
-        # ⚓ G anchor: [[Letters-G-anchor|G()]] 
+        #? ⚓ G anchor: [[Letters-G-anchor|G()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def G(height, tls: tx.ChainTurtle):     
@@ -187,7 +187,7 @@ class EngLetters:
             )
 
 
-        # ⚓ H anchor: [[Letters-H-anchor|H()]] 
+        #? ⚓ H anchor: [[Letters-H-anchor|H()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def H(height, tls: tx.ChainTurtle):     
@@ -210,7 +210,7 @@ class EngLetters:
             )
 
 
-        # ⚓ I anchor: [[Letters-I-anchor|I()]] 
+        #? ⚓ I anchor: [[Letters-I-anchor|I()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def I(height, tls: tx.ChainTurtle):     
@@ -235,7 +235,7 @@ class EngLetters:
             )
 
 
-        # ⚓ J anchor: [[Letters-J-anchor|J()]] 
+        #? ⚓ J anchor: [[Letters-J-anchor|J()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def J(height, tls: tx.ChainTurtle):     
@@ -259,7 +259,7 @@ class EngLetters:
             )
 
 
-        # ⚓ K anchor: [[Letters-K-anchor|K()]] 
+        #? ⚓ K anchor: [[Letters-K-anchor|K()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def K(height, tls: tx.ChainTurtle):     
@@ -283,7 +283,7 @@ class EngLetters:
             )
 
 
-        # ⚓ L anchor: [[Letters-L-anchor|L()]] 
+        #? ⚓ L anchor: [[Letters-L-anchor|L()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def L(height, tls: tx.ChainTurtle):     
@@ -301,7 +301,7 @@ class EngLetters:
             )
 
 
-        # ⚓ M anchor: [[Letters-M-anchor|M()]] 
+        #? ⚓ M anchor: [[Letters-M-anchor|M()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def M(height, tls: tx.ChainTurtle):     
@@ -324,7 +324,7 @@ class EngLetters:
             )
 
 
-        # ⚓ N anchor: [[Letters-N-anchor|N()]] 
+        #? ⚓ N anchor: [[Letters-N-anchor|N()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def N(height, tls: tx.ChainTurtle):     
@@ -346,7 +346,7 @@ class EngLetters:
             )
 
 
-        # ⚓ O anchor: [[Letters-O-anchor|O()]] 
+        #? ⚓ O anchor: [[Letters-O-anchor|O()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def O(height, tls: tx.ChainTurtle):     
@@ -369,7 +369,7 @@ class EngLetters:
             )
 
 
-        # ⚓ P anchor: [[Letters-P-anchor|P()]] 
+        #? ⚓ P anchor: [[Letters-P-anchor|P()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def P(height, tls: tx.ChainTurtle):     
@@ -389,7 +389,7 @@ class EngLetters:
             )
 
 
-        # ⚓ Q anchor: [[Letters-Q-anchor|Q()]] 
+        #? ⚓ Q anchor: [[Letters-Q-anchor|Q()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def Q(height, tls: tx.ChainTurtle):     
@@ -416,7 +416,7 @@ class EngLetters:
             )
 
 
-        # ⚓ R anchor: [[Letters-R-anchor|R()]] 
+        #? ⚓ R anchor: [[Letters-R-anchor|R()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def R(height, tls: tx.ChainTurtle):     
@@ -437,7 +437,7 @@ class EngLetters:
             )
 
 
-        # ⚓ S anchor: [[Letters-S-anchor|S()]] 
+        #? ⚓ S anchor: [[Letters-S-anchor|S()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def S(height, tls: tx.ChainTurtle):     
@@ -470,7 +470,7 @@ class EngLetters:
             )
 
 
-        # ⚓ T anchor: [[Letters-T-anchor|T()]] 
+        #? ⚓ T anchor: [[Letters-T-anchor|T()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def T(height, tls: tx.ChainTurtle):     
@@ -493,7 +493,7 @@ class EngLetters:
             )
 
 
-        # ⚓ U anchor: [[Letters-U-anchor|U()]] 
+        #? ⚓ U anchor: [[Letters-U-anchor|U()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def U(height, tls: tx.ChainTurtle):     
@@ -515,7 +515,7 @@ class EngLetters:
             )
 
 
-        # ⚓ V anchor: [[Letters-V-anchor|V()]] 
+        #? ⚓ V anchor: [[Letters-V-anchor|V()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def V(height, tls: tx.ChainTurtle):     
@@ -536,7 +536,7 @@ class EngLetters:
             )
 
 
-        # ⚓ W anchor: [[Letters-W-anchor|W()]] 
+        #? ⚓ W anchor: [[Letters-W-anchor|W()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def W(height, tls: tx.ChainTurtle):     
@@ -567,7 +567,7 @@ class EngLetters:
             )
 
 
-        # ⚓ X anchor: [[Letters-X-anchor|X()]] 
+        #? ⚓ X anchor: [[Letters-X-anchor|X()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def X(height, tls: tx.ChainTurtle):     
@@ -592,7 +592,7 @@ class EngLetters:
             )
 
 
-        # ⚓ Y anchor: [[Letters-Y-anchor|Y()]] 
+        #? ⚓ Y anchor: [[Letters-Y-anchor|Y()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def Y(height, tls: tx.ChainTurtle):     
@@ -624,7 +624,7 @@ class EngLetters:
             )
 
 
-        # ⚓ Z anchor: [[Letters-Z-anchor|Z()]] 
+        #? ⚓ Z anchor: [[Letters-Z-anchor|Z()]] 
         @staticmethod
         @eng_vls.alphabets_deco
         def Z(height, tls: tx.ChainTurtle):     

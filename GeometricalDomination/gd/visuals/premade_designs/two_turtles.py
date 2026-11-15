@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[two-turtles-anchor|two_turtles.py]] 
+#? ⚓ Anchor for this module: [[two-turtles-anchor|two_turtles.py]] 
 #* [Click here to see module description](./premade_designs_docs/two_turtles.md) 
 
 lazy import math
@@ -13,12 +13,12 @@ lazy from . import designs_decorator as designs_deco
 type TurtleListType = list[tx.ChainTurtle]
 
 
-# ⚓ TurtleTwo anchor: [[TurtleTwo-anchor|class TurtleTwo]] 
+#? ⚓ TurtleTwo anchor: [[TurtleTwo-anchor|class TurtleTwo]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/two_turtles.md) 
 class TurtleTwo:
 
 
-      # ⚓ duo_spiral anchor: [[TurtleTwo-duo-spiral-anchor|duo_spiral()]] 
+      #? ⚓ duo_spiral anchor: [[TurtleTwo-duo-spiral-anchor|duo_spiral()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -33,7 +33,7 @@ class TurtleTwo:
             tx.SU()
 
 
-      # ⚓ squares8 anchor: [[TurtleTwo-squares8-anchor|squares8()]] 
+      #? ⚓ squares8 anchor: [[TurtleTwo-squares8-anchor|squares8()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -87,7 +87,7 @@ class TurtleTwo:
             )
 
 
-      # ⚓ tri_hexaflower anchor: [[TurtleTwo-tri-hexaflower-anchor|tri_hexaflower()]] 
+      #? ⚓ tri_hexaflower anchor: [[TurtleTwo-tri-hexaflower-anchor|tri_hexaflower()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -140,7 +140,7 @@ class TurtleTwo:
                   )
 
 
-      # ⚓ sd_pattern anchor: [[TurtleTwo-sd-pattern-anchor|sd_pattern()]] 
+      #? ⚓ sd_pattern anchor: [[TurtleTwo-sd-pattern-anchor|sd_pattern()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -187,7 +187,7 @@ class TurtleTwo:
                   )
 
 
-      # ⚓ sd_spiral anchor: [[TurtleTwo-sd-spiral-anchor|sd_spiral()]] 
+      #? ⚓ sd_spiral anchor: [[TurtleTwo-sd-spiral-anchor|sd_spiral()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -207,7 +207,7 @@ class TurtleTwo:
                turtle.left(60)
 
 
-      # ⚓ sd_triflower anchor: [[TurtleTwo-sd-triflower-anchor|sd_triflower()]] 
+      #? ⚓ sd_triflower anchor: [[TurtleTwo-sd-triflower-anchor|sd_triflower()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)
@@ -269,7 +269,7 @@ class TurtleTwo:
             )
 
 
-      # ⚓ hexaflower_sd anchor: [[TurtleTwo-hexaflower-sd-anchor|hexaflower_sd()]] 
+      #? ⚓ hexaflower_sd anchor: [[TurtleTwo-hexaflower-sd-anchor|hexaflower_sd()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/two_turtles.md) 
       @staticmethod
       @designs_deco.turtles(2)

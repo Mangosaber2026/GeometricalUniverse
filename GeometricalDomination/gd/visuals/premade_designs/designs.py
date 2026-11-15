@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[designs-anchor|designs.py]] 
+#? ⚓ Anchor for this module: [[designs-anchor|designs.py]] 
 #* 📝 [Click here to see module description](./premade_designs_docs/designs.md) 
 
 lazy import turtle_extension as tx
@@ -15,7 +15,7 @@ lazy from . import (
 )
 
 
-# ⚓ Designs anchor: [[Designs-anchor|class Designs]] 
+#? ⚓ Designs anchor: [[Designs-anchor|class Designs]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/designs.md) 
 class Designs(
    one_turtle.TurtleOne,
@@ -27,13 +27,13 @@ class Designs(
    variable_turtles.TurtleToChoose
 ):
 
-   # ⚓ change_shape anchor: [[Designs-change-shape-anchor|change_shape()]] 
+   #? ⚓ change_shape anchor: [[Designs-change-shape-anchor|change_shape()]] 
    #* 📝 [Click here to see function description](./premade_designs_docs/designs.md)
    @staticmethod
    def change_shape():
       tx.TurtleFct.change_shape()
 
-   # ⚓ list_designs anchor: [[Designs-list-designs-anchor|list_designs()]] 
+   #? ⚓ list_designs anchor: [[Designs-list-designs-anchor|list_designs()]] 
    #* 📝 [Click here to see function description](./premade_designs_docs/designs.md) 
    @staticmethod
    def list_designs():
@@ -50,7 +50,7 @@ class Designs(
       )
 
 
-# ⚓ get_Patterns_dict anchor: [[get-Patterns-dict-anchor|get_Patterns_dict()]] 
+#? ⚓ get_Patterns_dict anchor: [[get-Patterns-dict-anchor|get_Patterns_dict()]] 
 #* 📝 [Click here to see function description](./premade_designs_docs/designs.md) 
 def get_Patterns_dict():
    return {

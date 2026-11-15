@@ -246,13 +246,143 @@ This function draws 6 circular 60° sections from the center of the flower.
 
 ##### Preview: hexa_flower
 
+![`hexa_flower` showcase](./images/hexa_flower_showcase.png)
 
+[`hexa_flower` showcase](./images/hexa_flower_showcase.png)
 
 ##### Source code: hexa_flower
 
 [Click here to inspect the source code of `Shapes.hexa_flower()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
 
 Comment Linking: [[#Shapes-hexa-flower-anchor|Shapes.hexa_flower()]] 
+
+#### hexa_flower_fill
+
+This function draws a filled [`hexa_flower`](shapes.md#hexa_flower) from the center of the flower.
+
+##### Preview: hexa_flower_fill
+
+![`hexa_flower_fill` showcase](./images/hexa_flower_fill_showcase.png)
+
+[`hexa_flower_fill` showcase](./images/hexa_flower_fill_showcase.png)
+
+##### Source code: hexa_flower_fill
+
+[Click here to inspect the source code of `Shapes.hexa_flower_fill()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-hexa-flower-fill-anchor|Shapes.hexa_flower_fill()]] 
+
+#### lotus_flower
+
+This function draws a double [`hexa_flower`](shapes.md#hexa_flower) to draw a lotus flower from the center of the flower.
+
+##### Preview: lotus_flower
+
+![`lotus_flower` showcase](./images/lotus_flower_showcase.png)
+
+[`lotus_flower` showcase](./images/lotus_flower_showcase.png)
+
+##### Source code: lotus_flower
+
+[Click here to inspect the source code of `Shapes.lotus_flower()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-lotus-flower-anchor|Shapes.lotus_flower()]] 
+
+#### lotus_flower_fill
+
+This function draws a filled [`lotus_flower`](shapes.md#lotus_flower) from the center of the flower.
+
+##### Preview: lotus_flower_fill
+
+![`lotus_flower_fill` showcase](./images/lotus_flower_fill_showcase.png)
+
+[`lotus_flower_fill` showcase](./images/lotus_flower_fill_showcase.png)
+
+##### Source code: lotus_flower_fill
+
+[Click here to inspect the source code of `Shapes.lotus_flower_fill()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-lotus-flower-fill|Shapes.lotus_flower_fill()]] 
+
+#### lines
+
+This function draws a chosen number of evenly spaces lines in a circular pattern with a chosen distance.
+
+##### Preview: lines
+
+![`lines` showcase](./images/lines_showcase.png)
+
+[`lines` showcase](./images/lines_showcase.png)
+
+##### Source code: lines
+
+[Click here to inspect the source code of `Shapes.lines()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-lines-anchor|Shapes.lines()]] 
+
+#### circle
+
+This function draws a circle from the side.
+
+##### Preview: circle
+
+![`circle` showcase](./images/circle_showcase.png)
+
+[`circle` showcase](./images/circle_showcase.png)
+
+##### Source code: circle
+
+[Click here to inspect the source code of `Shapes.circle`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-circle-anchor|Shapes.circle()]] 
+
+#### circle_filler
+
+This function draws a filled [`circle`](shapes.md#circle).
+
+##### Preview: circle_filler
+
+![`circle_filler` showcase](./images/circle_filler_showcase.png)
+
+[`circle_filler` showcase](./images/circle_filler_showcase.png)
+
+##### Source code: circle_filler
+
+[Click here to inspect the source code of `Shapes.circle_filler`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-circle-filler-anchor|Shapes.circle_filler()]] 
+
+#### polygon
+
+This function draws a regular polygon from the side with a chosen arbitrary number of sides.
+
+##### Preview: polygon
+
+![`polygon` showcase](./images/polygon_showcase.png)
+
+[`polygon` showcase](./images/polygon_showcase.png)
+
+##### Source code: polygon
+
+[Click here to inspect the source code of `Shapes.polygon()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-polygon-anchor|Shapes.polygon()]] 
+
+#### polygon_fill
+
+This function draws a regular filled [`polygon`](shapes.md#polygon) with a chosen arbitrary number of sides.
+
+##### Preview: polygon_fill
+
+![`polygon_fill` showcase](./images/polygon_fill_showcase.png)
+
+[`polygon_fill` showcase](./images/polygon_fill_showcase.png)
+
+##### Source code: polygon_fill
+
+[Click here to inspect the source code of `Shapes.polygon_fill()`](https://github.com/Mangosaber2026/GeometricalDomination/blob/main/gd/visuals/premade_shapes/shapes.py)
+
+Comment Linking: [[#Shapes-polygon-fill-anchor|Shapes.polygon_fill()]] 
 
 ## Source code: Shapes
 

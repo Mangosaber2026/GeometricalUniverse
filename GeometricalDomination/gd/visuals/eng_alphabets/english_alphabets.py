@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[english-alphabets-anchor|english_alphabets.py]] 
+#? ⚓ Anchor for this module: [[english-alphabets-anchor|english_alphabets.py]] 
 
 
 lazy import uf
@@ -6,7 +6,7 @@ lazy import uf
 lazy from . import english_letters, english_punctuations, english_shapes
 
 
-# ⚓ Alphabets anchor: [[EngAlphabets-anchor|class EngAlphabets]] 
+#? ⚓ Alphabets anchor: [[EngAlphabets-anchor|class EngAlphabets]] 
 #* 📝 Class designed to draw all letters and some punctuation of the English Alphabet
 class EngAlphabets(
     english_letters.EngLetters,
@@ -15,7 +15,7 @@ class EngAlphabets(
     ):
 
 
-    # ⚓ list_alphabets anchor: [[Alphabets-list-alphabets-anchor|list_alphabets()]] 
+    #? ⚓ list_alphabets anchor: [[Alphabets-list-alphabets-anchor|list_alphabets()]] 
     #* 📝 Creates and returns a dictionary with all the available functions in [[#EngAlphabets-anchor|EngAlphabets]] 
     @staticmethod
     def list_alphabets():

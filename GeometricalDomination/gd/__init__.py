@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[gd-anchor|gd.__init__.py]] 
+#? ⚓ Anchor for this module: [[gd-anchor|gd.__init__.py]] 
 
 """
 Welcome to GeometricalDomination!!!

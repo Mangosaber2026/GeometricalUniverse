@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[shapes-anchor|shapes.py]] 
+#? ⚓ Anchor for this module: [[shapes-anchor|shapes.py]] 
 #* [Click here to see module description](./premade_shapes_docs/shapes.md) 
 
 lazy import numbers as num
@@ -27,11 +27,11 @@ def side_tls_num(side: RealType, tls_num: tx.ChainTurtle) -> None:
     uf.TypeValidate(expected=tx.ChainTurtle)(value=tls_num, name=tls_num_name)
 
 
-# ⚓ Shapes anchor: [[Shapes-anchor|class Shapes]] 
+#? ⚓ Shapes anchor: [[Shapes-anchor|class Shapes]] 
 #* 📝 [Click here to see class description](./premade_shapes_docs/shapes.md) 
 class Shapes:
 
-    # ⚓ SOD anchor: [[Shapes-SOD-anchor|SOD()]] 
+    #? ⚓ SOD anchor: [[Shapes-SOD-anchor|SOD()]] 
     #* 📝 ====== STAR OF DAVID ======
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
@@ -59,7 +59,7 @@ class Shapes:
             )
 
 
-    # ⚓ SOD_fill anchor: [[Shapes-SOD-fill-anchor|SOD_fill()]] 
+    #? ⚓ SOD_fill anchor: [[Shapes-SOD-fill-anchor|SOD_fill()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def SOD_fill(side, tls_num: tx.ChainTurtle):
@@ -88,7 +88,7 @@ class Shapes:
             )
 
 
-    # ⚓ hexagon anchor: [[Shapes-hexagon-anchor|hexagon()]] 
+    #? ⚓ hexagon anchor: [[Shapes-hexagon-anchor|hexagon()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexagon(side, tls_num: tx.ChainTurtle):
@@ -104,7 +104,7 @@ class Shapes:
         )
 
 
-    # ⚓ hexagon_fill anchor: [[Shapes-hexagon-fill-anchor|hexagon_fill()]] 
+    #? ⚓ hexagon_fill anchor: [[Shapes-hexagon-fill-anchor|hexagon_fill()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexagon_fill(side, tls_num: tx.ChainTurtle):
@@ -119,7 +119,7 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ triangle anchor: [[Shapes-triangle-anchor|triangle()]] 
+    #? ⚓ triangle anchor: [[Shapes-triangle-anchor|triangle()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def triangle(side, tls_num: tx.ChainTurtle):
@@ -130,7 +130,7 @@ class Shapes:
             tls_num.forward(side).left(120)
 
 
-    # ⚓ triangle_fill anchor: [[Shapes-triangle-fill-anchor|triangle_fill()]] 
+    #? ⚓ triangle_fill anchor: [[Shapes-triangle-fill-anchor|triangle_fill()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def triangle_fill(side, tls_num: tx.ChainTurtle):
@@ -145,7 +145,7 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ triangle_half anchor: [[Shapes-triangle-half-anchor|triangle_half()]] 
+    #? ⚓ triangle_half anchor: [[Shapes-triangle-half-anchor|triangle_half()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def triangle_half(side, tls_num: tx.ChainTurtle):
@@ -161,7 +161,7 @@ class Shapes:
         tls_num.forward(side_50)
 
 
-    # ⚓ square anchor: [[Shapes-square-anchor|square()]] 
+    #? ⚓ square anchor: [[Shapes-square-anchor|square()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def square(side, tls_num: tx.ChainTurtle):
@@ -172,7 +172,7 @@ class Shapes:
             tls_num.forward(side).left(90)
 
 
-    # ⚓ square_fill anchor: [[Shapes-square-fill-anchor|square_fill()]] 
+    #? ⚓ square_fill anchor: [[Shapes-square-fill-anchor|square_fill()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def square_fill(side, tls_num: tx.ChainTurtle):
@@ -187,7 +187,7 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ square_half anchor: [[Shapes-square-half-anchor|square_half()]] 
+    #? ⚓ square_half anchor: [[Shapes-square-half-anchor|square_half()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def square_half(side, tls_num: tx.ChainTurtle):
@@ -203,7 +203,7 @@ class Shapes:
         tls_num.forward(side_50)
 
 
-    # ⚓ rectangle anchor: [[Shapes-rectangle-anchor|rectangle()]] 
+    #? ⚓ rectangle anchor: [[Shapes-rectangle-anchor|rectangle()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def rectangle(length, width, direction, tls_num: tx.ChainTurtle):
@@ -225,7 +225,7 @@ class Shapes:
                 tls_num.forward(side).left(turn)
 
 
-    # ⚓ rectangle_fill anchor: [[Shapes-rectangle-fill-anchor|rectangle_fill()]] 
+    #? ⚓ rectangle_fill anchor: [[Shapes-rectangle-fill-anchor|rectangle_fill()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def rectangle_fill(length, width, direction, tls_num: tx.ChainTurtle):
@@ -241,7 +241,7 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ hexaflower_tri anchor: [[Shapes-hexaflower-tri-anchor|hexaflower_tri()]] 
+    #? ⚓ hexaflower_tri anchor: [[Shapes-hexaflower-tri-anchor|hexaflower_tri()]] 
     #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexaflower_tri(length, tls_num: tx.ChainTurtle):
@@ -267,8 +267,8 @@ class Shapes:
             )
 
 
-    # ⚓ hexaflower_tri_fill anchor: [[Shapes-hexaflower-tri-fill-anchor|hexaflower_tri_fill()]] 
-    #* 📝 [[#Shapes-hexaflower-tri-anchor|hexaflower_tri()]]  with fill color
+    #? ⚓ hexaflower_tri_fill anchor: [[Shapes-hexaflower-tri-fill-anchor|hexaflower_tri_fill()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexaflower_tri_fill(length, tls_num: tx.ChainTurtle):
 
@@ -282,8 +282,8 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ hexa_flower anchor: [[Shapes-hexa-flower-anchor|hexa_flower()]] 
-    #* 📝 ====== HEXAFLOWER CIRCLE VERSION ======
+    #? ⚓ hexa_flower anchor: [[Shapes-hexa-flower-anchor|hexa_flower()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexa_flower(radius, tls_num: tx.ChainTurtle):
 
@@ -299,8 +299,8 @@ class Shapes:
             )
 
 
-    # ⚓ hexa_flower_fill anchor: [[Shapes-hexa-flower-fill-anchor|hexa_flower_fill()]] 
-    #* 📝 [[#Shapes-hexa-flower-anchor|hexa_flower()]] with fill color
+    #? ⚓ hexa_flower_fill anchor: [[Shapes-hexa-flower-fill-anchor|hexa_flower_fill()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def hexa_flower_fill(radius, tls_num: tx.ChainTurtle):
 
@@ -314,8 +314,9 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ lotus_flower anchor: [[Shapes-lotus-flower-anchor|lotus_flower()]] 
+    #? ⚓ lotus_flower anchor: [[Shapes-lotus-flower-anchor|lotus_flower()]] 
     #* 📝 ====== LOTUS FLOWER ======
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def lotus_flower(radius, tls_num: tx.ChainTurtle):
 
@@ -329,8 +330,8 @@ class Shapes:
             tls_num.left((-1)**n*30)
 
 
-    # ⚓ lotus_flower_fill anchor: [[Shapes-lotus-flower-fill-anchor|lotus_flower_fill()]] 
-    #* 📝 [[#Shapes-lotus-flower-anchor|lotus_flower()]] with fill color
+    #? ⚓ lotus_flower_fill anchor: [[Shapes-lotus-flower-fill-anchor|lotus_flower_fill()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def lotus_flower_fill(radius, tls_num: tx.ChainTurtle):
 
@@ -344,9 +345,9 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ lines anchor: [[Shapes-lines-anchor|lines()]] 
+    #? ⚓ lines anchor: [[Shapes-lines-anchor|lines()]] 
     #* 📝 ====== LINES ======
-    #* 📝 Draws evenly spaced lines in a circular pattern
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def lines(distance, lines_num, tls_num: tx.ChainTurtle):
 
@@ -360,8 +361,8 @@ class Shapes:
             tls_num.forward(distance).backward(distance).left(angle)
 
 
-    # ⚓ circle anchor: [[Shapes-circle-anchor|circle()]] 
-    #* 📝 ====== CIRCLE ======
+    #? ⚓ circle anchor: [[Shapes-circle-anchor|circle()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def circle(radius, tls_num: tx.ChainTurtle):
 
@@ -370,8 +371,8 @@ class Shapes:
         tls_num.circle(radius)
 
 
-    # ⚓ circle_filler anchor: [[Shapes-circle-filler-anchor|circle_filler()]] 
-    #* 📝 [[#Shapes-circle-anchor|circle()]] with fill color
+    #? ⚓ circle_filler anchor: [[Shapes-circle-filler-anchor|circle_filler()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def circle_filler(radius, tls_num: tx.ChainTurtle):
 
@@ -380,9 +381,8 @@ class Shapes:
         tls_num.begin_fill().circle(radius).end_fill()
 
 
-    # ⚓ polygon anchor: [[Shapes-polygon-anchor|polygon()]] 
-    #* 📝 ====== POLYGON ======
-    #* 📝 Draws a regular polygon with an arbitrary number of sides
+    #? ⚓ polygon anchor: [[Shapes-polygon-anchor|polygon()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def polygon(length, sides, tls_num: tx.ChainTurtle):
 
@@ -395,13 +395,13 @@ class Shapes:
         (
             tls_num
             . right(angle_to_right)
-            . circle(radius,360,sides)
+            . circle(radius, 360, sides)
             . left(angle_to_right)
         )
 
 
-    # ⚓ polygon_fill anchor: [[Shapes-polygon-fill-anchor|polygon_fill()]] 
-    #* 📝 [[#Shapes-polygon-anchor|polygon()]] with fill color
+    #? ⚓ polygon_fill anchor: [[Shapes-polygon-fill-anchor|polygon_fill()]] 
+    #* [Click here to see function description](./premade_shapes_docs/shapes.md) 
     @staticmethod
     def polygon_fill(length, sides, tls_num: tx.ChainTurtle):
 
@@ -417,7 +417,7 @@ class Shapes:
         tls_num.end_fill()
 
 
-    # ⚓ list_shapes anchor: [[Shapes-list-shapes-anchor|list_shapes()]] 
+    #? ⚓ list_shapes anchor: [[Shapes-list-shapes-anchor|list_shapes()]] 
     #* 📝 ===== SHAPES DICT =====
     #* 📝 Creates and returns a dictionary with all [[#Shapes-anchor|Shapes]] available functions
     @staticmethod

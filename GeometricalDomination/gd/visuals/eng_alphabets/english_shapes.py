@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[english-shapes-anchor|english_shapes.py]] 
+#? ⚓ Anchor for this module: [[english-shapes-anchor|english_shapes.py]] 
 
 lazy import turtle_extension as tx
 lazy import uf
@@ -7,14 +7,14 @@ lazy from ..premade_shapes import shapes
 lazy from . import english_alphabets_validators as eng_vls
 
 
-# ⚓ Shapes anchor: [[EngShapes-anchor|class EngShapes]] 
+#? ⚓ Shapes anchor: [[EngShapes-anchor|class EngShapes]] 
 #* 📝 Contains only the shapes, they are directly accessible through [[#EngAlphabets-anchor|EngAlphabets]] 
 class EngShapes:
         """
         A collection of functions to draw shapes (and mathematical symbols).
         """
 
-        # ⚓ plus anchor: [[EngShapes-plus-anchor|plus()]] 
+        #? ⚓ plus anchor: [[EngShapes-plus-anchor|plus()]] 
         #* 📝 Draws a plus sign
         @staticmethod
         @eng_vls.alphabets_deco
@@ -40,7 +40,7 @@ class EngShapes:
             )
 
 
-        # ⚓ equals anchor: [[EngShapes-equals-anchor|equals()]] 
+        #? ⚓ equals anchor: [[EngShapes-equals-anchor|equals()]] 
         #* 📝 Draws an equal sign
         @staticmethod
         @eng_vls.alphabets_deco
@@ -66,7 +66,7 @@ class EngShapes:
             )
 
 
-        # ⚓ times anchor: [[EngShapes-times-anchor|times()]] 
+        #? ⚓ times anchor: [[EngShapes-times-anchor|times()]] 
         #* 📝 Draws a multiplication sign
         @staticmethod
         @eng_vls.alphabets_deco
@@ -94,7 +94,7 @@ class EngShapes:
             )
 
 
-        # ⚓ minus anchor: [[EngShapes-minus-anchor|minus()]] 
+        #? ⚓ minus anchor: [[EngShapes-minus-anchor|minus()]] 
         #* 📝 Draws a minus
         @staticmethod
         @eng_vls.alphabets_deco
@@ -113,7 +113,7 @@ class EngShapes:
             )
 
 
-        # ⚓ underline anchor: [[EngShapes-underline-anchor|underline()]] 
+        #? ⚓ underline anchor: [[EngShapes-underline-anchor|underline()]] 
         #* 📝 Draws an underline
         @staticmethod
         @eng_vls.alphabets_deco
@@ -131,7 +131,7 @@ class EngShapes:
             )
 
 
-        # ⚓ heart anchor: [[EngShapes-heart-anchor|heart()]] 
+        #? ⚓ heart anchor: [[EngShapes-heart-anchor|heart()]] 
         #* 📝 Draws a heart shape
         @staticmethod
         @eng_vls.alphabets_deco
@@ -160,7 +160,7 @@ class EngShapes:
             )
 
 
-        # ⚓ star anchor: [[EngShapes-star-anchor|star()]] 
+        #? ⚓ star anchor: [[EngShapes-star-anchor|star()]] 
         #* 📝 Draws a star shape
         @staticmethod
         @eng_vls.alphabets_deco

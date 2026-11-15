@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[english-punctuations-anchor|english_punctuations.py]] 
+#? ⚓ Anchor for this module: [[english-punctuations-anchor|english_punctuations.py]] 
 
 lazy import turtle_extension as tx
 lazy import uf
@@ -7,14 +7,14 @@ lazy from ..premade_shapes import shapes
 lazy from . import english_alphabets_validators as eng_vls
 
 
-# ⚓ EngPunctuation anchor: [[EngPunctuation-anchor|class EngPunctuation]] 
+#? ⚓ EngPunctuation anchor: [[EngPunctuation-anchor|class EngPunctuation]] 
 #* 📝 Contains only the punctuations, they are directly accessible through [[#EngAlphabets-anchor|EngAlphabets]] 
 class EngPunctuation:
         """
         A collection of functions to draw English punctuation marks.
         """
 
-        # ⚓ space anchor: [[#Punctuation-space-anchor|space()]] 
+        #? ⚓ space anchor: [[#Punctuation-space-anchor|space()]] 
         #* 📝 Draws a space
         @staticmethod
         @eng_vls.alphabets_deco
@@ -24,7 +24,7 @@ class EngPunctuation:
             tls.right(90).fd_inv(height_25).left(90)
 
 
-        # ⚓ dot anchor: [[#Punctuation-dot-anchor|dot()]] 
+        #? ⚓ dot anchor: [[#Punctuation-dot-anchor|dot()]] 
         #* 📝 Draws a dot
         @staticmethod
         @eng_vls.alphabets_deco
@@ -43,7 +43,7 @@ class EngPunctuation:
             )
 
 
-        # ⚓ exclamation anchor: [[#Punctuation-exclamation-anchor|exclamation()]] 
+        #? ⚓ exclamation anchor: [[#Punctuation-exclamation-anchor|exclamation()]] 
         #* 📝 Draws an exclamation mark
         @staticmethod
         @eng_vls.alphabets_deco
@@ -69,7 +69,7 @@ class EngPunctuation:
             )
 
 
-        # ⚓ question anchor: [[#Punctuation-question-anchor|question()]] 
+        #? ⚓ question anchor: [[#Punctuation-question-anchor|question()]] 
         #* 📝 Draws a question mark
         @staticmethod
         @eng_vls.alphabets_deco
@@ -108,7 +108,7 @@ class EngPunctuation:
             )
 
 
-        # ⚓ apostrophe anchor: [[#Punctuation-apostrophe-anchor|apostrophe()]] 
+        #? ⚓ apostrophe anchor: [[#Punctuation-apostrophe-anchor|apostrophe()]] 
         #* 📝 Draws an apostrophe
         @staticmethod
         @eng_vls.alphabets_deco
@@ -132,7 +132,7 @@ class EngPunctuation:
             )
 
 
-        # ⚓ colon anchor: [[#Punctuation-colon-anchor|colon()]] 
+        #? ⚓ colon anchor: [[#Punctuation-colon-anchor|colon()]] 
         #* 📝 Draws a colon
         @staticmethod
         @eng_vls.alphabets_deco
@@ -157,7 +157,7 @@ class EngPunctuation:
             )
 
 
-        # ⚓ comma anchor: [[#Punctuation-comma-anchor|comma()]] 
+        #? ⚓ comma anchor: [[#Punctuation-comma-anchor|comma()]] 
         #* 📝 Draws a comma
         @staticmethod
         @eng_vls.alphabets_deco
