@@ -2,6 +2,6 @@ import turtle_extension as tx
 
 from GeometricalDomination import gd
 
-turtle = tx.ChainTurtle().color("indigo")
-gd.Shapes.polygon_fill(100, 10, turtle)
+turtle = tx.ChainTurtle().color("blue")
+gd.Shapes.hexaflower_tri(200, turtle)
 tx.mainloop()
