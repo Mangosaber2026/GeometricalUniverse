@@ -8,6 +8,7 @@ mathematical functions.
 #* 📝 Runtime: Contains no implementation; see the corresponding
 #* 📝         .py file for executable code.
 
+import abc
 import numbers as num
 
 #* 📝 Type for any real number
@@ -21,7 +22,7 @@ type ListXYType = tuple[list[RealType], list[RealType]]
 type DomainType = tuple[RealType, RealType, int]
 
 
-class Drawing:
+class Drawing(abc.ABC):
    """
    Parent class for drawing/rendering mathematical functions.
    """
@@ -42,6 +43,15 @@ class Drawing:
 
       :return: list of x values
       """
+
+
+   @abc.abstractmethod
+   def generate(self) -> ListXYType:
+      """
+      Generates the y values for the corresponding x values of the function.
+
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
+      """ 
 
 
    @staticmethod
@@ -90,7 +100,7 @@ class LinearFct(Drawing):
       """
       Generates the coordinates of the points of the linear function created with the desired domain.
       
-      :return: list of coordinates
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
       """
 
 
@@ -103,7 +113,7 @@ class SineWave(Drawing):
       """
       Generates the coordinates of the points of the sine wave function created with the desired domain.
       
-      :return: list of coordinates
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
       """
 
 
@@ -116,7 +126,7 @@ class CosineWave(Drawing):
       """
       Generates the coordinates of the points of the cosine wave function created with the desired domain.
       
-      :return: list of coordinates
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
       """
 
 
@@ -129,7 +139,7 @@ class AbsoluteX(Drawing):
       """
       Generates the coordinates of the points of the absolute x values created with the desired domain.
       
-      :return: list of coordinates
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
       """
 
 
@@ -164,5 +174,5 @@ class QuadraticFct(Drawing):
       """
       Generates the coordinates of the points of the quadratic function created with the desired domain.
       
-      :return: list of coordinates
+      :return: tuple containing 2 lists, 1st with x values, 2nd with y values
       """
