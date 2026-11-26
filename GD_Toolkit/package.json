@@ -14,15 +14,15 @@
     "imports": {
         "#file-editing/*": {
             "types": "./src/file_editing_src/file_editing_decl/*.d.ts",
-            "default": "./src/file_editing_src/*.ts"
+            "default": "./src/dist/file_editing_src/*.js"
         },
         "#ts-utilities/*": {
             "types": "./src/ts_utilities_src/ts_utilities_decl/*.d.ts",
-            "default": "./src/ts_utilities_src/*.ts"
+            "default": "./src/dist/ts_utilities_src/*.js"
         },
         "#gd-verification/*": {
             "types": "./src/gd_verification_src/gd_verification_decl/*.d.ts",
-            "default": "./src/gd_verification_src/*.ts"
+            "default": "./src/dist/gd_verification_src/*.js"
         }
     },
 

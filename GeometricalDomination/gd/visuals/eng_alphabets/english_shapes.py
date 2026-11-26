@@ -1,4 +1,5 @@
 #? ⚓ Anchor for this module: [[english-shapes-anchor|english_shapes.py]] 
+#* [Click here to see module description](./eng_alphabets_docs/english_shapes.md) 
 
 lazy import turtle_extension as tx
 lazy import uf
@@ -8,14 +9,14 @@ lazy from . import english_alphabets_validators as eng_vls
 
 
 #? ⚓ Shapes anchor: [[EngShapes-anchor|class EngShapes]] 
-#* 📝 Contains only the shapes, they are directly accessible through [[#EngAlphabets-anchor|EngAlphabets]] 
+#* 📝 [Click here to see class description](./eng_alphabets_docs/english_shapes.md) 
 class EngShapes:
         """
         A collection of functions to draw shapes (and mathematical symbols).
         """
 
         #? ⚓ plus anchor: [[EngShapes-plus-anchor|plus()]] 
-        #* 📝 Draws a plus sign
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def plus(height, tls: tx.ChainTurtle):     
@@ -41,7 +42,7 @@ class EngShapes:
 
 
         #? ⚓ equals anchor: [[EngShapes-equals-anchor|equals()]] 
-        #* 📝 Draws an equal sign
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def equals(height, tls: tx.ChainTurtle):     
@@ -67,7 +68,7 @@ class EngShapes:
 
 
         #? ⚓ times anchor: [[EngShapes-times-anchor|times()]] 
-        #* 📝 Draws a multiplication sign
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def times(height, tls: tx.ChainTurtle):     
@@ -95,7 +96,7 @@ class EngShapes:
 
 
         #? ⚓ minus anchor: [[EngShapes-minus-anchor|minus()]] 
-        #* 📝 Draws a minus
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def minus(height, tls: tx.ChainTurtle):     
@@ -114,7 +115,7 @@ class EngShapes:
 
 
         #? ⚓ underline anchor: [[EngShapes-underline-anchor|underline()]] 
-        #* 📝 Draws an underline
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def underline(height, tls: tx.ChainTurtle):     
@@ -132,7 +133,7 @@ class EngShapes:
 
 
         #? ⚓ heart anchor: [[EngShapes-heart-anchor|heart()]] 
-        #* 📝 Draws a heart shape
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def heart(height, tls: tx.ChainTurtle):     
@@ -161,7 +162,7 @@ class EngShapes:
 
 
         #? ⚓ star anchor: [[EngShapes-star-anchor|star()]] 
-        #* 📝 Draws a star shape
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_shapes.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def star(height, tls: tx.ChainTurtle):     
@@ -184,6 +185,6 @@ class EngShapes:
             (
                 tls
                 . setheading(direction - 90)
-                . forward(height_40)
+                . fd_inv(height_40)
                 . left(90)
             )

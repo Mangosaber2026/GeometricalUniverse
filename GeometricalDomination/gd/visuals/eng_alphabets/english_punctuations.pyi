@@ -12,10 +12,13 @@ import numbers as num
 
 import turtle_extension as tx
 
+#* 📝 The type of Real numbers
+type RealType = num.Real | float | int
+
 class EngPunctuation:
 
     @staticmethod
-    def space(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def space(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Traces an invisible space with a ChainTurtle.
 
@@ -28,7 +31,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def dot(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def dot(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws a dot with given height and ChainTurtle.
 
@@ -41,7 +44,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def exclamation(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def exclamation(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws an exclamation mark with given height and turtle.
 
@@ -54,7 +57,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def question(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def question(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws a question mark with given height and ChainTurtle.
 
@@ -67,7 +70,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def apostrophe(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def apostrophe(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws an apostrophe with given height and ChainTurtle.
 
@@ -80,7 +83,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def colon(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def colon(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws a colon with given height and ChainTurtle.
 
@@ -93,7 +96,7 @@ class EngPunctuation:
 
 
     @staticmethod
-    def comma(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def comma(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws a comma with given height and ChainTurtle.
 

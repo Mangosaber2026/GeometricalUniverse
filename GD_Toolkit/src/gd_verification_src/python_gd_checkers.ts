@@ -1,6 +1,6 @@
 import { execFile } from "node:child_process";
 import * as node_util from "node:util";
-import type * as types from "./types.ts";
+import type * as types from "./types.js";
 import * as csl_tool from "#ts-utilities/console_toolkit";
 
 const execFileAsync = node_util.promisify(execFile);

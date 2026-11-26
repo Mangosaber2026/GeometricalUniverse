@@ -1,4 +1,5 @@
 #? ⚓ Anchor for this module: [[english-punctuations-anchor|english_punctuations.py]] 
+#* [Click here to see module description](./eng_alphabets_docs/english_punctuations.md) 
 
 lazy import turtle_extension as tx
 lazy import uf
@@ -14,8 +15,8 @@ class EngPunctuation:
         A collection of functions to draw English punctuation marks.
         """
 
-        #? ⚓ space anchor: [[#Punctuation-space-anchor|space()]] 
-        #* 📝 Draws a space
+        #? ⚓ space anchor: [[EngPunctuation-space-anchor|space()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def space(height, tls: tx.ChainTurtle):     
@@ -24,8 +25,8 @@ class EngPunctuation:
             tls.right(90).fd_inv(height_25).left(90)
 
 
-        #? ⚓ dot anchor: [[#Punctuation-dot-anchor|dot()]] 
-        #* 📝 Draws a dot
+        #? ⚓ dot anchor: [[EngPunctuation-dot-anchor|dot()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def dot(height, tls: tx.ChainTurtle):     
@@ -43,8 +44,8 @@ class EngPunctuation:
             )
 
 
-        #? ⚓ exclamation anchor: [[#Punctuation-exclamation-anchor|exclamation()]] 
-        #* 📝 Draws an exclamation mark
+        #? ⚓ exclamation anchor: [[EngPunctuation-exclamation-anchor|exclamation()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def exclamation(height, tls: tx.ChainTurtle):     
@@ -69,8 +70,8 @@ class EngPunctuation:
             )
 
 
-        #? ⚓ question anchor: [[#Punctuation-question-anchor|question()]] 
-        #* 📝 Draws a question mark
+        #? ⚓ question anchor: [[EngPunctuation-question-anchor|question()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def question(height, tls: tx.ChainTurtle):     
@@ -108,8 +109,8 @@ class EngPunctuation:
             )
 
 
-        #? ⚓ apostrophe anchor: [[#Punctuation-apostrophe-anchor|apostrophe()]] 
-        #* 📝 Draws an apostrophe
+        #? ⚓ apostrophe anchor: [[EngPunctuation-apostrophe-anchor|apostrophe()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def apostrophe(height, tls: tx.ChainTurtle):     
@@ -132,8 +133,8 @@ class EngPunctuation:
             )
 
 
-        #? ⚓ colon anchor: [[#Punctuation-colon-anchor|colon()]] 
-        #* 📝 Draws a colon
+        #? ⚓ colon anchor: [[EngPunctuation-colon-anchor|colon()]] 
+        #* 📝 [Click here to see function description](./eng_alphabets_docs/english_punctuations.md) 
         @staticmethod
         @eng_vls.alphabets_deco
         def colon(height, tls: tx.ChainTurtle):     
@@ -157,15 +158,15 @@ class EngPunctuation:
             )
 
 
-        #? ⚓ comma anchor: [[#Punctuation-comma-anchor|comma()]] 
+        #? ⚓ comma anchor: [[EngPunctuation-comma-anchor|comma()]] 
         #* 📝 Draws a comma
         @staticmethod
         @eng_vls.alphabets_deco
         def comma(height, tls: tx.ChainTurtle):     
 
             height_5 = uf.Percent(5)(height)    
-            height_1 = uf.Percent(1)(height)
-            height_15 = uf.Percent(15)(height)    
+            height_1 = uf.Percent(10)(height)
+            height_15 = height_5 * 3    
             (
                 tls
                 . begin_fill()
@@ -182,6 +183,6 @@ class EngPunctuation:
                 . forward(height_5)
                 . end_fill()
                 . right(180)
-                . fd_inv(height_15)
+                . fd_inv(height_15)                                     # pyright: ignore[reportArgumentType]
                 . left(90)
             )

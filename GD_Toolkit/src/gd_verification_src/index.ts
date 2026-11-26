@@ -1,2 +1,2 @@
-export * from "./python_gd_checkers";
-export type * from "./types";
+export * from "./python_gd_checkers.js";
+export type * from "./types.js";

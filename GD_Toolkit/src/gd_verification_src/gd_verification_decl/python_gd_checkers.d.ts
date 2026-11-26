@@ -1,5 +1,5 @@
 import { execFile } from "node:child_process";
-import type * as types from "../types.ts";
+import type * as types from "../types.js";
 
 
 /**
