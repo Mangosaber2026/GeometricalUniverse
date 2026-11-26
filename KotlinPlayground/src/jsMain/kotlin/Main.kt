@@ -1,4 +1,4 @@
-import geometry.vectors.times
+﻿import geometry.vectors.times
 
 data class NumberAnalysis(
     val original: List<Int>,
@@ -58,5 +58,16 @@ fun executeVectors() {
 }
 
 fun main() {
-    class_manipulation.runClassManipulation()
+    
+    val turtle = class_manipulation.Turtle()
+    
+    turtle.forward(100.0)
+    turtle.rotate(90.0)
+    turtle.forward(50.0)
+    
+    val position = turtle.getPosition()
+    
+    println("Position of turtle at: (${position[0]}, ${position[1]})")
+    
+    println("Finished successfully! 🎉")
 }

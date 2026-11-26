@@ -1,13 +1,14 @@
 #? ⚓ Anchor for this module: [[functions-grapher-anchor|functions_grapher.py]] 
 
-import numbers as num
-import typing as tp
+lazy import abc
+lazy import numbers as num
+lazy import typing as tp
 
-import numpy as np
-import turtle_extension as tx
-import uf
+lazy import numpy as np
+lazy import turtle_extension as tx
+lazy import uf
 
-import gd
+lazy import gd
 
 
 #* 📝 Parent class for all mathematical functions:
@@ -17,7 +18,7 @@ import gd
 #* 📝 [[#AbsoluteX-anchor|class AbsoluteX]] 
 #* 📝 [[#QuadraticFct-anchor|class QuadraticFct]] 
 #? ⚓ Drawing anchor: [[Drawing-anchor|class Drawing]] 
-class Drawing:
+class Drawing(abc.ABC):
 
     #? ⚓ __init__ anchor: [[Drawing-__init__-anchor|__init__()]] 
     #* 📝 Makes all child classes take a domain for the function
@@ -33,6 +34,9 @@ class Drawing:
             self.end,
             self.steps+1).tolist()
 
+    @abc.abstractmethod
+    def generate(self) -> tuple[list[float | int], list[float | int]]: 
+        pass
 
     #? ⚓ render anchor: [[Drawing-render-anchor|render()]] 
     #* 📝 Renders the generated coordinates from a function
@@ -95,7 +99,7 @@ class LinearFct(Drawing):
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class SineWave(Drawing):
 
-    def generate(self):
+    def generate(self):                                                 # pyright: ignore[reportIncompatibleMethodOverride]
 
         x_val = self.x_val()
         y_val = [100 * uf.sine(x) for x in x_val]
@@ -107,7 +111,7 @@ class SineWave(Drawing):
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class CosineWave(Drawing):
 
-    def generate(self):
+    def generate(self):                                                 # pyright: ignore[reportIncompatibleMethodOverride]
 
         x_val = self.x_val()
         y_val = [100 * uf.cosine(x) for x in x_val]
