@@ -1,0 +1,15 @@
+Advent_of_code: New added directory for practicing problems from the Advent of code competition.
+
+GD_Toolkit: Improved internal implementation and added ABC documentation generator.
+
+GeometricalDomination: Completed entire documentation through Markdown and pictures of the drawings.
+
+KotlinPlayground: Started experimentation on class manipulation.
+
+UniversalFunctions: Added nested attribute retrieval functions.
+
+commit_message.txt: New created text file for storing multiline commit messages for GeometricalUniverse.
+
+gd_showcaser.py: Added reusable pipeline for drawing something from gd.
+
+sympy_math.py: New created Python file for storing mathematical functions which use sympy.

@@ -12,10 +12,13 @@ import numbers as num
 
 import turtle_extension as tx
 
+#* 📝 The type of a Real number
+type RealType = num.Real | float | int
+
 class EngLetters:
     
     @staticmethod
-    def A(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def A(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter A with a ChainTurtle.
 
@@ -28,7 +31,7 @@ class EngLetters:
 
 
     @staticmethod
-    def B(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def B(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter B with a ChainTurtle.
 
@@ -41,7 +44,7 @@ class EngLetters:
 
 
     @staticmethod
-    def C(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def C(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter C with a ChainTurtle.
 
@@ -54,7 +57,7 @@ class EngLetters:
 
 
     @staticmethod
-    def D(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def D(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter D with a ChainTurtle.
 
@@ -67,7 +70,7 @@ class EngLetters:
 
 
     @staticmethod
-    def E(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def E(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter E with a ChainTurtle.
 
@@ -80,7 +83,7 @@ class EngLetters:
 
 
     @staticmethod
-    def F(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def F(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter F with a ChainTurtle.
 
@@ -93,7 +96,7 @@ class EngLetters:
 
     
     @staticmethod
-    def G(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def G(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter G with a ChainTurtle.
 
@@ -106,7 +109,7 @@ class EngLetters:
 
 
     @staticmethod
-    def H(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def H(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter H with a ChainTurtle.
 
@@ -119,7 +122,7 @@ class EngLetters:
 
 
     @staticmethod
-    def I(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def I(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter I with a ChainTurtle.
 
@@ -132,7 +135,7 @@ class EngLetters:
 
     
     @staticmethod
-    def J(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def J(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter J with a ChainTurtle.
 
@@ -145,7 +148,7 @@ class EngLetters:
 
     
     @staticmethod
-    def K(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def K(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter K with a ChainTurtle.
 
@@ -158,7 +161,7 @@ class EngLetters:
 
     
     @staticmethod
-    def L(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def L(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter L with a ChainTurtle.
 
@@ -171,7 +174,7 @@ class EngLetters:
 
 
     @staticmethod
-    def M(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def M(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter M with a ChainTurtle.
 
@@ -184,7 +187,7 @@ class EngLetters:
 
 
     @staticmethod
-    def N(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def N(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter N with a ChainTurtle.
 
@@ -197,7 +200,7 @@ class EngLetters:
 
 
     @staticmethod
-    def O(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def O(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter O with a ChainTurtle.
 
@@ -210,7 +213,7 @@ class EngLetters:
 
 
     @staticmethod
-    def P(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def P(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter P with a ChainTurtle.
 
@@ -223,7 +226,7 @@ class EngLetters:
 
 
     @staticmethod
-    def Q(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def Q(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter Q with a ChainTurtle.
 
@@ -236,7 +239,7 @@ class EngLetters:
 
 
     @staticmethod
-    def R(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def R(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter R with a ChainTurtle.
 
@@ -249,7 +252,7 @@ class EngLetters:
 
 
     @staticmethod
-    def S(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def S(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter S with a ChainTurtle.
 
@@ -262,7 +265,7 @@ class EngLetters:
 
 
     @staticmethod
-    def T(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def T(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter T with a ChainTurtle.
 
@@ -275,7 +278,7 @@ class EngLetters:
 
 
     @staticmethod
-    def U(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def U(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter U with a ChainTurtle.
 
@@ -288,7 +291,7 @@ class EngLetters:
 
 
     @staticmethod
-    def V(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def V(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter V with a ChainTurtle.
 
@@ -301,7 +304,7 @@ class EngLetters:
 
 
     @staticmethod
-    def W(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def W(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter W with a ChainTurtle.
 
@@ -314,7 +317,7 @@ class EngLetters:
 
 
     @staticmethod
-    def X(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def X(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter X with a ChainTurtle.
 
@@ -327,7 +330,7 @@ class EngLetters:
 
 
     @staticmethod
-    def Y(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def Y(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter Y with a ChainTurtle.
 
@@ -340,7 +343,7 @@ class EngLetters:
 
 
     @staticmethod
-    def Z(height: num.Real, tls: tx.ChainTurtle) -> None:
+    def Z(height: RealType, tls: tx.ChainTurtle) -> None:
         """
         Draws the letter Z with a ChainTurtle.
 

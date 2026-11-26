@@ -14,7 +14,7 @@ import numbers as num
 
 import turtle_extension as tx
 
-def alphabets_validate(height: num.Real, tls: tx.ChainTurtle) -> tuple[num.Real, tx.ChainTurtle]:
+def alphabets_validate(height: num.Real | float, tls: tx.ChainTurtle) -> tuple[num.Real, tx.ChainTurtle]:
     """
     This function takes the parameters from all alphabet drawing functions and validates them.
 

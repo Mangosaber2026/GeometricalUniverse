@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[four-turtles-anchor|four_turtles.py]] 
+#? ⚓ Anchor for this module: [[four-turtles-anchor|four_turtles.py]] 
 #* 📝 [Click here to see module description](./premade_designs_docs/four_turtles.md) 
 
 lazy import math
@@ -13,11 +13,11 @@ lazy from . import designs_decorator as designs_deco
 type TurtleListType = list[tx.ChainTurtle]
 
 
-# ⚓ TurtleFour anchor: [[TurtleFour-anchor|class TurtleFour]] 
+#? ⚓ TurtleFour anchor: [[TurtleFour-anchor|class TurtleFour]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/four_turtles.md)
 class TurtleFour:
 
-      # ⚓ flower_4petals anchor: [[TurtleFour-flower-4petals|flower_4petals()]] 
+      #? ⚓ flower_4petals anchor: [[TurtleFour-flower-4petals|flower_4petals()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/four_turtles.md)
       @staticmethod
       @designs_deco.turtles(4)
@@ -31,7 +31,7 @@ class TurtleFour:
                turtle.circle(a)
 
 
-      # ⚓ square4 anchor: [[TurtleFour-square4-anchor|square4()]] 
+      #? ⚓ square4 anchor: [[TurtleFour-square4-anchor|square4()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/four_turtles.md) 
       @staticmethod
       @designs_deco.turtles(4)
@@ -51,7 +51,7 @@ class TurtleFour:
                )
 
 
-      # ⚓ quadrant_square anchor: [[TurtleFour-quadrant-square-anchor|quadrant_square()]] 
+      #? ⚓ quadrant_square anchor: [[TurtleFour-quadrant-square-anchor|quadrant_square()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/four_turtles.md) 
       @staticmethod
       @designs_deco.turtles(4)
@@ -71,7 +71,7 @@ class TurtleFour:
                )
 
 
-      # ⚓ multi_square_grid anchor: [[TurtleFour-multi-square-grid-anchor|multi_square_grid()]] 
+      #? ⚓ multi_square_grid anchor: [[TurtleFour-multi-square-grid-anchor|multi_square_grid()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/four_turtles.md) 
       @staticmethod
       @designs_deco.turtles(4)

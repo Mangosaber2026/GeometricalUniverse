@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[three-turtles-anchor|three_turtles.py]] 
+#? ⚓ Anchor for this module: [[three-turtles-anchor|three_turtles.py]] 
 #* [Click here to see module description](./premade_designs_docs/three_turtles.md) 
 
 lazy import turtle_extension as tx
@@ -11,11 +11,11 @@ lazy from . import designs_decorator as designs_deco
 type TurtleListType = list[tx.ChainTurtle]
 
 
-# ⚓ TurtleThree anchor: [[TurtleThree-anchor|class TurtleThree]] 
+#? ⚓ TurtleThree anchor: [[TurtleThree-anchor|class TurtleThree]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/three_turtles.md) 
 class TurtleThree:
 
-      # ⚓ squares10 anchor: [[TurtleThree-squares10-anchor|squares10()]] 
+      #? ⚓ squares10 anchor: [[TurtleThree-squares10-anchor|squares10()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/three_turtles.md) 
       @staticmethod
       @designs_deco.turtles(3)
@@ -53,7 +53,7 @@ class TurtleThree:
          )
 
 
-      # ⚓ sd_flower anchor: [[TurtleThree-sd-flower-anchor|sd_flower()]] 
+      #? ⚓ sd_flower anchor: [[TurtleThree-sd-flower-anchor|sd_flower()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/three_turtles.md) 
       @staticmethod
       @designs_deco.turtles(3)

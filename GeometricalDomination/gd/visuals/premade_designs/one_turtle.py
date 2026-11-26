@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[one-turtle-anchor|one_turtle.py]] 
+#? ⚓ Anchor for this module: [[one-turtle-anchor|one_turtle.py]] 
 #* 📝 [Click here to see module description](./premade_designs_docs/one_turtle.md) 
 
 lazy import math
@@ -13,11 +13,11 @@ lazy from . import designs_decorator as designs_deco
 type TurtleListType = list[tx.ChainTurtle]
 
 
-# ⚓ TurtleOne anchor: [[TurtleOne-anchor|class TurtleOne]] 
+#? ⚓ TurtleOne anchor: [[TurtleOne-anchor|class TurtleOne]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/one_turtle.md) 
 class TurtleOne:
 
-	# ⚓ hexaflower anchor: [[TurtleOne-hexaflower-anchor|hexaflower()]] 
+	#? ⚓ hexaflower anchor: [[TurtleOne-hexaflower-anchor|hexaflower()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md)
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -57,7 +57,7 @@ class TurtleOne:
 				)
 
 
-	# ⚓ star_of_david anchor: [[TurtleOne-star-of-david-anchor|star_of_david()]] 
+	#? ⚓ star_of_david anchor: [[TurtleOne-star-of-david-anchor|star_of_david()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -70,7 +70,7 @@ class TurtleOne:
 		)
 
 
-	# ⚓ diamond_pattern anchor: [[TurtleOne-diamond-pattern-anchor|diamond_pattern()]] 
+	#? ⚓ diamond_pattern anchor: [[TurtleOne-diamond-pattern-anchor|diamond_pattern()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -107,7 +107,7 @@ class TurtleOne:
          	)
 
 
-	# ⚓ hidden_sds anchor: [[TurtleOne-hidden-sds-anchor|hidden_sds()]] 
+	#? ⚓ hidden_sds anchor: [[TurtleOne-hidden-sds-anchor|hidden_sds()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -126,7 +126,7 @@ class TurtleOne:
 			length = (length * uf.sine(30)) / uf.sine(120) 					# pyright: ignore[reportOperatorIssue]
 
 
-	# ⚓ gd_reference anchor: [[TurtleOne-gd-reference-anchor|gd_reference()]] 
+	#? ⚓ gd_reference anchor: [[TurtleOne-gd-reference-anchor|gd_reference()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -158,7 +158,7 @@ class TurtleOne:
          )
 
 
-	# ⚓ tri_wheel anchor: [[TurtleOne-tri-wheel-anchor|tri_wheel()]] 
+	#? ⚓ tri_wheel anchor: [[TurtleOne-tri-wheel-anchor|tri_wheel()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)
@@ -190,7 +190,7 @@ class TurtleOne:
          )
 
 
-	# ⚓ lotus_pattern anchor: [[TurtleOne-lotus-pattern-anchor|lotus_pattern()]] 
+	#? ⚓ lotus_pattern anchor: [[TurtleOne-lotus-pattern-anchor|lotus_pattern()]] 
 	#* 📝 [Click here to see function description](./premade_designs_docs/one_turtle.md) 
 	@staticmethod
 	@designs_deco.turtles(1)

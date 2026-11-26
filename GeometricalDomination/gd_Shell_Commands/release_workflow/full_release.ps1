@@ -1,4 +1,4 @@
-﻿# ⚓ Anchor for this module: [[full-release-anchor|full_release.ps1]]
+﻿#? ⚓ Anchor for this module: [[full-release-anchor|full_release.ps1]]
 #* 📝 This module contains the complete GeometricalDomination release workflow.
 #*📝 The release must be initiated from the experimental branch.
 

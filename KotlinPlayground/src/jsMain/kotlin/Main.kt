@@ -20,7 +20,7 @@ fun analyzeNumbers(numbers: List<Int>): NumberAnalysis {
     )
 }
 
-fun main() {
+fun executeVectors() {
     val numbers = mutableListOf<Int>(1, 2, 3, 4, 5, 6)
 
     val result = analyzeNumbers(numbers)
@@ -55,4 +55,8 @@ fun main() {
 
     println("3D Vector: $vector3")
     println("3D Magnitude: ${vector3.magnitude()}")
+}
+
+fun main() {
+    class_manipulation.runClassManipulation()
 }

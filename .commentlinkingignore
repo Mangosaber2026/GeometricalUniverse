@@ -1,0 +1,12 @@
+# JavaScript dependencies ignore
+**/node_modules/
+
+# KotlinPlayground package ignores
+KotlinPlayground/build/
+KotlinPlayground/.kotlin/
+KotlinPlayground/.gradle/
+KotlinPlayground/gradle/
+KotlinPlayground/kotlin-js-store/
+
+# GitHub Actions build ignores
+**/.github/

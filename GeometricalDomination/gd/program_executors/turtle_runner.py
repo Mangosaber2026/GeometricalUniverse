@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[turtle-runner-anchor|turtle_runner.py]] 
+#? ⚓ Anchor for this module: [[turtle-runner-anchor|turtle_runner.py]] 
 
 lazy from time import sleep as rest
 
@@ -12,7 +12,7 @@ lazy from .. import visuals
 #? //////////////////////////////////////
 #? //////// USER DRAWING PROGRAM ///////
 #? ////////////////////////////////////
-# ⚓ user_drawing_ft anchor: [[user-drawing-ft-anchor|user_drawing_ft()]] 
+#? ⚓ user_drawing_ft anchor: [[user-drawing-ft-anchor|user_drawing_ft()]] 
 #* 📝 This runs the customizable user focused function where
 #* 📝 the user can draw their own designs with internally defined features
 def user_drawing_ft():
@@ -112,7 +112,7 @@ def user_drawing_ft():
 #? /////////////////////////////////
 #? //////// MAIN OPERATION ////////
 #? ///////////////////////////////
-# ⚓ main anchor: [[main-anchor|main()]] 
+#? ⚓ main anchor: [[main-anchor|main()]] 
 #* 📝 This is the entrance point to the whole software,
 #* 📝 it lets users draw premade functions as well as [[#user-drawing-ft-anchor|customizable ones]] 
 def main():

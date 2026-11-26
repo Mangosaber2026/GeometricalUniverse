@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[user-features-anchor|user_features.__init__.py]]  
+#? ⚓ Anchor for this module: [[user-features-anchor|user_features.__init__.py]]  
  
 #* 📝 Imports the class, dictionary and functions available in user features section [[#user-commands-anchor|user_commands.py]] 
 lazy from .user_commands import (

@@ -24,8 +24,17 @@ not be changed!
 """
 
 
+#* 📝 Imports functions from the [[#attributes-anchor|attriubtes package]] 
+lazy from .attributes import (                                       # noqa: I001
+   find_nested_attr,
+   # 🔗 Link to source code: [[#find-nested-attr-anchor|find_nested_attr()]] 
+
+   get_nested_attr
+   # 🔗 Link to source code: [[#get-nested-attr-anchor|get_nested_attr()]] 
+)
+
 #* 📝 Imports functions and classes from the [[#mathematics-anchor|mathematics package]] 
-lazy from .mathematics import (  # noqa: I001
+lazy from .mathematics import (
     Percent,  
     # 🔗 Link to source code: [[#Percent-anchor|class Percent]] 
 
@@ -179,6 +188,9 @@ lazy from .validators import (
 
 #* 📝 Specifies all available classes, functionsand constants through wildcard import
 __all__ = [
+   "find_nested_attr",
+   "get_nested_attr",
+    
    "Percent",
    "pct10",
    "pct20",

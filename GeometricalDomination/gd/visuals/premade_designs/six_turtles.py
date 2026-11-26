@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[six-turtles-anchor|six_turtles.py]] 
+#? ⚓ Anchor for this module: [[six-turtles-anchor|six_turtles.py]] 
 #* [Click here to see module description](./premade_designs_docs/six_turtles.md) 
 
 lazy import math
@@ -12,11 +12,11 @@ lazy from . import designs_decorator as designs_deco
 type TurtleListType = list[tx.ChainTurtle]
 
 
-# ⚓ TurtleSix anchor: [[TurtleSix-anchor|class TurtleSix]] 
+#? ⚓ TurtleSix anchor: [[TurtleSix-anchor|class TurtleSix]] 
 #* 📝 [Click here to see class description](./premade_designs_docs/six_turtles.md) 
 class TurtleSix:
 
-      # ⚓ circles6 anchor: [[TurtleSix-circles6-anchor|circles6()]] 
+      #? ⚓ circles6 anchor: [[TurtleSix-circles6-anchor|circles6()]] 
       #* 📝 [Click here to see function description](./premade_designs_docs/six_turtles.md) 
       @staticmethod
       @designs_deco.turtles(6)

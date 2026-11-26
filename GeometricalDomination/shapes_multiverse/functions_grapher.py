@@ -1,4 +1,4 @@
-# ⚓ Anchor for this module: [[functions-grapher-anchor|functions_grapher.py]] 
+#? ⚓ Anchor for this module: [[functions-grapher-anchor|functions_grapher.py]] 
 
 import numbers as num
 import typing as tp
@@ -16,10 +16,10 @@ import gd
 #* 📝 [[#CosineWave-anchor|class CosineWave]] 
 #* 📝 [[#AbsoluteX-anchor|class AbsoluteX]] 
 #* 📝 [[#QuadraticFct-anchor|class QuadraticFct]] 
-# ⚓ Drawing anchor: [[Drawing-anchor|class Drawing]] 
+#? ⚓ Drawing anchor: [[Drawing-anchor|class Drawing]] 
 class Drawing:
 
-    # ⚓ __init__ anchor: [[Drawing-__init__-anchor|__init__()]] 
+    #? ⚓ __init__ anchor: [[Drawing-__init__-anchor|__init__()]] 
     #* 📝 Makes all child classes take a domain for the function
     def __init__(self, domain):
 
@@ -34,7 +34,7 @@ class Drawing:
             self.steps+1).tolist()
 
 
-    # ⚓ render anchor: [[Drawing-render-anchor|render()]] 
+    #? ⚓ render anchor: [[Drawing-render-anchor|render()]] 
     #* 📝 Renders the generated coordinates from a function
     @staticmethod
     def render(coordinates):
@@ -64,14 +64,14 @@ class Drawing:
         tx.mainloop()
 
 
-    # ⚓ draw anchor: [[Drawing-draw-anchor|draw()]] 
+    #? ⚓ draw anchor: [[Drawing-draw-anchor|draw()]] 
     #* 📝 Generates the coordinates and feeds them to [[#Drawing-render-anchor|render()]] 
     def draw(self):
 
         self.render(self.generate())                                    # pyright: ignore[reportAttributeAccessIssue]
 
 
-# ⚓ LinearFct anchor: [[LinearFct-anchor|class LinearFct]] 
+#? ⚓ LinearFct anchor: [[LinearFct-anchor|class LinearFct]] 
 #* 📝 Generates the coordinates for a Linear Function
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class LinearFct(Drawing):
@@ -90,7 +90,7 @@ class LinearFct(Drawing):
         return x_val, y_val
 
 
-# ⚓ SineWave anchor: [[SineWave-anchor|class SineWave]] 
+#? ⚓ SineWave anchor: [[SineWave-anchor|class SineWave]] 
 #* 📝 Generates the coordinates of a sine function
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class SineWave(Drawing):
@@ -102,7 +102,7 @@ class SineWave(Drawing):
         return x_val, y_val
 
 
-# ⚓ CosineWave anchor: [[CosineWave-anchor|class CosineWave]] 
+#? ⚓ CosineWave anchor: [[CosineWave-anchor|class CosineWave]] 
 #* 📝 Generates the coordinates of a cosine function
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class CosineWave(Drawing):
@@ -114,7 +114,7 @@ class CosineWave(Drawing):
         return x_val, y_val
 
 
-# ⚓ AbsoluteX anchor: [[AbsoluteX-anchor|class AbsoluteX]] 
+#? ⚓ AbsoluteX anchor: [[AbsoluteX-anchor|class AbsoluteX]] 
 #* 📝 Generates the coordinates of the function y = |x|
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class AbsoluteX(Drawing):
@@ -126,7 +126,7 @@ class AbsoluteX(Drawing):
         return x_val, y_val
 
 
-# ⚓ QuadraticFct anchor: [[QuadraticFct-anchor|class QuadraticFct]] 
+#? ⚓ QuadraticFct anchor: [[QuadraticFct-anchor|class QuadraticFct]] 
 #* 📝 Generates the coordinates of a quadratic function
 #* 📝 Parent class: [[#Drawing-anchor|class Drawing]] 
 class QuadraticFct(Drawing):

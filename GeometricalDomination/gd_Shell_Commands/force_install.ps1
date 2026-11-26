@@ -1,4 +1,4 @@
-﻿# ⚓ Anchor for this module: [[force-install-anchor|force_install.ps1]] 
+﻿#? ⚓ Anchor for this module: [[force-install-anchor|force_install.ps1]] 
 #* 📝 Installs a selected version of GeometricalDomination
 
 #* 📝 Imports the ShellHelper class containing reusable functions
