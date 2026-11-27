@@ -1,6 +1,5 @@
-GeometricalDomination: Added lazy imports, abstract class and abstract function implementation for the mathematical function classes parent class.
+GeometricalUniverseWebsiteKt: New added directory, contains Kotlin powered website for GeometricalUniverse.
 
-KotlinPlayground:
-    1. Added Computer.kt, FunctionsGeneration.kt, People.kt and Turtke.kt.
-    2. Added practice class manipulation through interfaces, abstract classes, and others.
-    3. Added toRadians function to class Double
+KotlinPlayground: 
+    1. FunctionsGeneration.kt improved for finding the x-axis intercepts of a quadratic function.
+    2. Changed experimental main() to text new getXIntercepts() function.
