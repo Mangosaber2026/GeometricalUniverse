@@ -67,7 +67,11 @@ fun main() {
     
     val position = turtle.getPosition()
     
+    val quadraticFct1 = class_manipulation.QuadraticFct(2.0, -8.0, 2.0)
+    
     println("Position of turtle at: (${position[0]}, ${position[1]})")
+    
+    println("Y intercepts of quadratic function is/are = ${quadraticFct1.getXIntercepts()}")
     
     println("Finished successfully! 🎉")
 }
