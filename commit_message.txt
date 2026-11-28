@@ -1,5 +1,3 @@
-GeometricalUniverseWebsiteKt: New added directory, contains Kotlin powered website for GeometricalUniverse.
-
-KotlinPlayground: 
-    1. FunctionsGeneration.kt improved for finding the x-axis intercepts of a quadratic function.
-    2. Changed experimental main() to text new getXIntercepts() function.
+GeometricalUniverseWebsiteKt:
+    1. Created base website structure for GeometricalUniverse with HTML and CSS.
+    2. Deleted unnecessary Kotlin search bar implementation.
