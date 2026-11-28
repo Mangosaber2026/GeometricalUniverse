@@ -1,3 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav[aria-label="Project categories"] {
+    display: flex;
+    gap: 5px;
+}
+
+nav[aria-label="Project categories"] button {
+    background-color: aqua;
+    border-color: aqua;
+
+    font-size: 15px;
+    padding: 4px 5px;
+}
+
+nav[aria-label="Project categories"] button:hover {
+    background-color: rgb(36, 135, 228);
+    border-color: rgb(36, 135, 228);
+    color: yellow;
+
+    opacity: 60;
+    transition-duration: 0.5s;
+}
+
+nav[aria-label="Project categories"] button:active {
+    background-color: rgb(25, 74, 235);
+    border-color: rgb(25, 74, 235);
+    color: yellow;
+
+    opacity: 50;
+    transition-duration: 0.5s;
+}
+
 .projects-section {
     padding: 40px 0;
 }
@@ -30,8 +65,16 @@
 }
 
 .project-card p {
-    color: #b7bdca;
+    color: aliceblue;
     line-height: 1.6;
+}
+
+.project-card a {
+    color: aliceblue;
+}
+
+.project-card details {
+    color: aliceblue;
 }
 
 .project-links {
@@ -47,5 +90,9 @@
 }
 
 .project-links a:hover {
+    text-decoration: underline;
+}
+
+.projects-section h2 {
     text-decoration: underline;
 }
