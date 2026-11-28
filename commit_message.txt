@@ -1,3 +1,5 @@
-GeometricalUniverseWebsiteKt:
-    1. Created base website structure for GeometricalUniverse with HTML and CSS.
-    2. Deleted unnecessary Kotlin search bar implementation.
+.github\worlflows\deploy-website.yml: New file created in nested directory to publish the website in Website with GitHub Actions.
+
+GeometricalUniverseWebsiteKt: Made great improvements to initial website.
+
+Website: New directory containing source code for the website to be launched from GitHub.
